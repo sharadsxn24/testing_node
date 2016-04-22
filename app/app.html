@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+        <title>Microapp Name</title>
+        
+        <!-- build:css app.css -->
+        <link href="app.css" rel="stylesheet" type="text/css">
+        <!-- endbuild -->
+    </head>
+    <body data-app-type="NM" data-platform-version="{{#platform_version}}{{platform_version}}{{/platform_version}}"
+          data-message-id="{{#message_id}}{{message_id}}{{/message_id}}">
+        
+        <script type="text/javascript">INLINE_SCRIPT_PLACEHOLDER</script>
+        
+        <!-- build:js scripts/bundle.js -->
+        <script type="text/javascript" src="bundle.js"></script>
+        <!-- endbuild -->
+    </body>
+</html>
